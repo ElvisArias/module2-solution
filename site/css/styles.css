@@ -1,0 +1,148 @@
+body
+  {
+    background-color: #E4EDED;
+  }
+#hhh <h1  {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-family: "Georgia, serif";
+    color: black;
+    text-align: center;
+
+  }
+
+
+p 
+  {
+    background-color: #c6b9c2;
+    width: 90%;
+    height: auto;
+    margin-right: 1px;
+    margin-left: 15px;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-left: 1px;
+    font-family: "Georgia, serif";
+    color: black;
+    hyphens: auto;
+    text-align:justify;
+  }
+  
+h1
+  {
+    font-family: "Georgia, serif";
+  
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    right: 0px;
+  }
+
+.color1
+  {
+    background-color: #B87979;
+    border: 1px solid black;
+  } 
+.color2
+  {
+    background-color: #B52121 ;
+    border: 1px solid black;
+  }
+.color3
+  {
+    background-color: #bfff25 ;
+    border: 1px solid black;
+  }
+
+
+.content
+  {
+    width: 106%;
+    box-sizing: border-box;
+  }
+
+
+@media (min-width: 992px) 
+  {
+    .column-large-3
+      {
+        float: left;
+        padding-left: 1px;
+        padding-right: 1px;
+        width: 30.4%;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        overflow: hidden;
+          border: none;
+      }
+  }
+
+@media (min-width: 768px) and (max-width: 991px){
+  .column-medium-2
+      {
+        float: left;
+        padding-left: 1px;
+        padding-right: 1px;
+        width: 46%;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-overflow: ellipsis;
+          background: #c6b9c2;
+      }
+  .column-medium-1
+      {
+        float: left;
+        padding-left: 1px;
+        padding-right: 1px;
+        width: 94.4%;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-overflow: ellipsis;
+        background: #c6b9c2;
+      } 
+}
+@media (max-width: 767px){
+    .column-small-1
+      {
+        float: left;
+        padding-left: 1px;
+        padding-right: 1px;
+        width: 90%;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-overflow: ellipsis;
+        border: none;
+      }
+  }
+
+div.menu
+  {
+    box-sizing: border-box;
+    border: 3px ;
+
+  }
+#dominic
+  {
+    float:right;
+    width: 250px;
+  }
